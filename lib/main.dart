@@ -1,5 +1,7 @@
 import 'package:class_task/mediaquery.dart';
+import 'package:class_task/reelPage.dart';
 import 'package:class_task/screen1.dart';
+import 'package:class_task/tabbar.dart';
 import 'package:class_task/testStack.dart';
 import 'package:flutter/material.dart';
 
@@ -12,6 +14,6 @@ class MyApp extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
-    return MaterialApp(debugShowCheckedModeBanner: false, home: MediaQueryPractice());
+    return MaterialApp(debugShowCheckedModeBanner: false, home: ReelsPage());
   }
 }
